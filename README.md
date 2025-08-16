@@ -26,13 +26,13 @@ The maze world itself is also created inside **Gazebo**, and navigation is visua
 ---
 
 ## 🚀 How It Works
-1. **Simulation in Gazebo**  
+- **Simulation in Gazebo**  
    - A custom maze world is created in **Gazebo**.  
    - The robot is spawned inside the maze with LIDAR attached.  
 
-2. **SLAM Phase**  
+- **SLAM Phase**  
    - Robot explores the maze, generating a **2D occupancy grid map**.  
 
-3. **Navigation Phase**  
+- **Navigation Phase**  
    - In **RViz**, the user provides a navigation goal (e.g., maze exit).  
    - Nav2 computes the path and the robot autonomously navigates out.  
