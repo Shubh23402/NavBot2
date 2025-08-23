@@ -1,6 +1,6 @@
-# 🧭 NavBot 2  
+# 🧭 NavBot 
 
-NavBot 2 is an **autonomous mobile robot** capable of solving maze-like environments and navigating real-world layouts using **SLAM (Simultaneous Localization and Mapping)** and the **ROS 2 Navigation Stack**.  
+NavBot is an **autonomous mobile robot** capable of solving maze-like environments and navigating real-world layouts using **SLAM (Simultaneous Localization and Mapping)** and the **ROS 2 Navigation Stack**.  
 The robot builds a map of its surroundings using **laser scan data** in **Gazebo simulation** and then autonomously navigates to a user-defined goal location in **RViz**.  
 
 In addition to maze-solving, NavBot 2 has also been extended to a **real-world use case**:  
